@@ -1,8 +1,20 @@
-from django.db import router
-from rest_framework import routers, urlpatterns
-from .views import DeckViewSet
+from django.urls import path, include
+from rest_framework_nested import routers
+
+from .views import (
+    DeckViewSet, 
+    DeckCardsViewSet
+)
 
 router = routers.SimpleRouter()
 router.register('', DeckViewSet)
 
-urlpatterns = router.urls
+# register a '/decks/:id/cards' url here
+cards_router = routers.NestedDefaultRouter(router, '', lookup='deck')
+cards_router.register('cards', DeckCardsViewSet)
+
+
+urlpatterns = [
+    path('', include(router.urls)),
+    path('', include(cards_router.urls))
+]

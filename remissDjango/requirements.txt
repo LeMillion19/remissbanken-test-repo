@@ -1,0 +1,48 @@
+asgiref==3.4.1
+backports.entry-points-selectable==1.1.1
+backports.zoneinfo==0.2.1
+CacheControl==0.12.10
+cachy==0.3.0
+certifi==2021.10.8
+charset-normalizer==2.0.9
+cleo==0.8.1
+clikit==0.6.2
+crashtest==0.3.1
+dataclasses @ file:///C:/Users/hassa/AppData/Local/pypoetry/Cache/artifacts/c7/23/67/284b81bc762445f6775c2a57179f3835a447d3903444620d321af3a9bc/dataclasses-0.6-py3-none-any.whl
+distlib==0.3.4
+Django==4.0
+django-cors-headers==3.10.1
+django-filter @ file:///C:/Users/hassa/AppData/Local/pypoetry/Cache/artifacts/5a/68/8a/77b40dc782662c89a85de68752ca22242c38218dc94ea9115eaa597532/django_filter-21.1-py3-none-any.whl
+djangorestframework==3.13.1
+djongo==1.3.6
+drf-nested-routers @ file:///C:/Users/hassa/AppData/Local/pypoetry/Cache/artifacts/04/97/ee/2c666def172bd2684df07fbd9c27fb4659cec157008222c12eda15b440/drf_nested_routers-0.93.4-py2.py3-none-any.whl
+filelock==3.4.0
+html5lib==1.1
+idna==3.3
+keyring==21.8.0
+lockfile==0.12.2
+msgpack==1.0.3
+packaging==20.9
+pastel==0.2.1
+pexpect==4.8.0
+pkginfo==1.8.2
+platformdirs==2.4.0
+poetry==1.1.12
+poetry-core==1.0.7
+ptyprocess==0.7.0
+pylev==1.4.0
+pymongo @ file:///C:/Users/hassa/AppData/Local/pypoetry/Cache/artifacts/f4/a7/17/62d10a00d4ea6059331772633cd5e03dead9bbdf3b6e9d74534b401635/pymongo-4.0.1-cp38-cp38-win_amd64.whl
+pyparsing==3.0.6
+python-decouple==3.5
+pytz==2021.3
+pywin32-ctypes==0.2.0
+requests==2.26.0
+requests-toolbelt==0.9.1
+shellingham==1.4.0
+six==1.16.0
+sqlparse @ file:///C:/Users/hassa/AppData/Local/pypoetry/Cache/artifacts/0c/c5/f6/f47cb54c7de1c732dd7d91fa33e49dbc035ead6982af3c58bb0c282352/sqlparse-0.2.4-py2.py3-none-any.whl
+tomlkit==0.8.0
+tzdata==2021.5
+urllib3==1.26.7
+virtualenv==20.10.0
+webencodings==0.5.1
